@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+  <div id="container">
+
+    <div id="input_field">
+
+      <div id="div_day_input" class="div_of_input">
+        <label for="day_input">day</label>
+        <input type="number" id="day_input">
+      </div>
+
+      <div id="div_month_input" class="div_of_input">
+        <label for="month_input">month</label>
+        <input type="number" id="month_input">
+      </div>
+
+      <div id="div_year_input" class="div_of_input">
+        <label for="year_input">year</label>
+        <input type="number" id="year_input">
+      </div>
+
+    </div>
+
+    <div id="elements">
+      <hr>
+      <button id="clicktofunction"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+    </div>
+
+    <div id="result">
+
+      <div id="div_number_result">
+        <h1 id="years_number"></h1>
+        <h2 id="years_phrase"></h2>
+      </div>
+      
+      <div id="div_month_result">
+        <h1 id="months_number"></h1>
+        <h2 id="months_phrase"></h2>
+      </div>
+
+      <div id="div_days_result">
+        <h1 id="days_number"></h1>
+        <h2 id="days_phrase"></h2>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/dinottom8">Mateus Dinotto</a>.
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
